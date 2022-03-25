@@ -1,0 +1,209 @@
+.profilePageContainer{
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+}
+.profilePageContainer-upload_image_container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.profilePageContainer-upload_image_container_img{
+    width: 10%;
+    display: flex;
+    /* justify-content: center; */
+    height: 100%;
+    align-items: center;
+}
+.profilePageContainer-upload_image_container_img img{
+    width:75px;
+    aspect-ratio: 1;
+    border-radius: 100px;
+}
+.profilePageContainer-upload_image_container h2{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0%;
+}
+
+
+.profilePageInputContainer-boxContainer{
+    width: 90%;
+    margin-top: 50px;
+    height: fit-content;
+    box-shadow: 1px 1px 8px 8px rgba(22, 22, 22, 0.163);
+
+}
+
+.profilePageInputContainer-box{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.profilePageInputContainer-box-left{
+    width: 66.666%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.profilePageInputContainer-box-right{
+    width: 33.333%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.profilePageInputContainer-box-itemRow{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+.profilePageInputContainer-borderless-boxContainer{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+.profilePageInputContainer-borderless-boxContainer-top{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.profilePageInputContainer-borderless-boxContainer-top-touchButton{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilePageInputContainer-borderless-boxContainer-top-textContainer{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profilePageInputContainer-borderless-boxContainer-top-textContainer h3{
+    font-size: 14px;
+    margin:0
+}
+.profilePageInputContainer-borderless-boxContainer-top-textContainer h4{
+    font-size: 11px;
+    margin:0
+
+}
+.profilePageInputContainer-borderless-boxContainer-bottom{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+.profileButtonWithresponsiveWidth{
+    width: fit-content;
+    margin: 0 10px;
+    border-radius: 2px;
+    box-shadow: 0px 1px 5px 5px rgba(29, 29, 29, 0.163);
+    height: fit-content;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.profileButtonWithresponsiveWidth h4{
+    font-weight: 400;
+    font-size: 9px;
+    margin: 0;
+}
+
+
+.profilePageInputContainer-submissionBoxContainer{
+    width: 100%;
+    height: fit-content;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.profileButtonWithFixedWidth{
+    width: 150px;
+    display: flex;
+    font-size: 14px;
+    box-shadow: 0px 1px 5px 5px rgba(29, 29, 29, 0.163);
+    cursor: pointer;
+    border-radius: 2px;
+    margin: 0 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+.profileButtonWithFixedWidth h4{
+    font-weight: 400;
+    font-size: 11px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+
+
+
+.inputItemContainer{
+    width: 45%;
+    height: 75px;
+}
+.inputItemContainer-headingContainer{
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.inputItemContainer-headingContainer h3{
+    font-size: 12px;
+    font-weight: 400;
+    /* height: 50px; */
+}
+.inputItemContainer input{
+    width: 98%;
+    padding: 0 4px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: #444444;
+    color: white;
+    outline: none;
+}
+.inputItemContainer input::placeholder{
+    font-size: 11px;
+    color: white;
+    padding-left: 20px;
+}
+.single-item-profilePageInputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full-width-inputItemContainer{
+    width: 90%;
+}
+
+
+

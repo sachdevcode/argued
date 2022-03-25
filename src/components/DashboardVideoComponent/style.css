@@ -1,0 +1,38 @@
+.DashboardVideoComponent{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+.DashboardVideoComponent-header{
+    width: 100%;
+    padding: 20px 0;
+    padding-top: 30px;
+    /* background-color: rebeccapurple; */
+    /* padding-left: 20px; */
+
+}
+.DashboardVideoComponent-header h3{
+    font-size: 16px;
+    margin: 0;
+}
+.DashboardVideoComponent-content{
+    width: 100%;
+    height: 80%;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+.DashboardVideoComponent-content::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .DashboardVideoComponent-content {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+.DashboardVideoComponent-element{
+    width: 460px;
+    height: 100%;
+    margin-right: 20px;
+}
